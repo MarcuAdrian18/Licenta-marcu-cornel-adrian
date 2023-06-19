@@ -1,6 +1,6 @@
 {
   "name": "@capycenta/local-api",
-  "version": "0.1.0-alpha.0",
+  "version": "1.0.0",
   "files": [
     "dist"
   ],
@@ -22,7 +22,7 @@
     "typescript": "^4.1.3"
   },
   "dependencies": {
-    "@capycenta/local-client": "^0.1.0-alpha.0",
+    "@capycenta/local-client": "^1.0.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "http-proxy-middleware": "^1.0.6"
