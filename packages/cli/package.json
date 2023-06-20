@@ -1,6 +1,6 @@
 {
   "name": "capycenta-app",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "publishConfig": {
     "access": "public"
   },
@@ -16,10 +16,10 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@capycenta-app/local-client": "^1.0.0"
+    "@capycenta-app/local-client": "^2.0.0"
   },
   "devDependencies": {
-    "@capycenta-app/local-api": "^1.0.0",
+    "@capycenta-app/local-api": "^2.0.0",
     "@types/node": "^14.14.22",
     "commander": "^11.0.0",
     "esbuild": "0.8.26",
