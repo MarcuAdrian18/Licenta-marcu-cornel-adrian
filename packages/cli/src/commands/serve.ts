@@ -1,6 +1,6 @@
 import path from "path";
 import { Command } from "commander";
-import { serve } from "@capycenta/local-api";
+import { serve } from "@capycenta-app/local-api";
 
 const isProduction = process.env.NODE_ENV === "production";
 interface LocalApiError {
@@ -24,7 +24,7 @@ export const serveCommand = new Command()
         !isProduction
       );
       console.log(
-        `Opened ${filename}. Capybarele le gasiti la http://localhost:${options.port} to edit the file.`
+        `Opened ${filename}. Capybarele le gasiti la http://localhost:${options.port}.`
       );
     } catch (err) {
       if (isLocalApiError(err)) {

@@ -25,6 +25,7 @@ const App = () => {
       ) : (
         <div className="main-container">
           <CellList />
+          <h1>Test</h1>
         </div>
       )}
     </Provider>

@@ -23,7 +23,7 @@ export const serve = (
     );
   } else {
     const packagePath = require.resolve(
-      "@capycenta/local-client/build/index.html"
+      "@capycenta-app/local-client/build/index.html"
     );
     app.use(express.static(path.dirname(packagePath)));
   }
